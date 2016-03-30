@@ -18,7 +18,7 @@ It is time-consuming to extract the feature, because on the social event part, w
 
 This time, I am working on the `Makefile`. But if you want to test the code, you can just download the Data file above and run the code by typing (no cuda version)
 ```sh
-$ cd src/; g++ -std=c++11 Data_extract.cpp -o Data.out; ./Data.out
+$ cd src/; g++ -std=c++11 -fopenmp Data_extract.cpp -o Data.out; ./Data.out
 ```
 or cuda version
 ```sh
